@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T11:43:31.568692+00:00",
-  "sourceHash": "a2556eb9c96a6b5d9e5271e3a1015f62a602969b6c0f19d413c3a1cc483ef8a5",
+  "sourceHash": "165052ef6edc7048439482b02ff35c051032dee4fc2ef55c87b4345dc80de0bd",
   "sourceNotes": [
     "Generated from data/forms_patched.json, data/companion_reference.json, _ru_ch5.txt, and _translation_full.txt.",
     "Manual stable ids, English names, and TTS metadata are applied from dojo-character-builder/data/builder-overrides.json."
@@ -431,7 +430,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Бегущий по ветру",
@@ -480,7 +479,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Соображай быстро",
@@ -533,7 +532,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Наблюдательный",
@@ -578,7 +577,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Профессионал",
@@ -632,7 +631,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Идеальный момент",
@@ -682,7 +681,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Неудержимый",
@@ -737,7 +736,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Природная харизма",
@@ -792,7 +791,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Несдвигаемый",
@@ -855,7 +854,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Устрой шоу",
@@ -900,7 +899,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Теневой ходок",
@@ -945,7 +944,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Мирное сердце",
@@ -996,7 +995,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       },
       "skill": {
         "name": "Почти магия",
@@ -3451,7 +3450,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3470,7 +3469,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3489,7 +3488,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3510,7 +3509,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3529,7 +3528,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3550,7 +3549,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3569,7 +3568,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3590,7 +3589,7 @@
         ]
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3609,7 +3608,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3628,7 +3627,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3647,7 +3646,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     },
     {
@@ -3666,7 +3665,7 @@
         "tags": []
       },
       "source": {
-        "file": "data\\forms_patched.json"
+        "file": "data/forms_patched.json"
       }
     }
   ],
