@@ -1,5 +1,5 @@
 {
-  "output": "D:\\Projects\\Active\\dojo-companion-main\\dojo-character-builder\\public\\data\\builder-data.json",
+  "output": "dojo-character-builder/public/data/builder-data.json",
   "counts": {
     "archetype": 13,
     "form": 12,

@@ -777,8 +777,12 @@ def main() -> int:
     counts: dict[str, int] = {}
     for item in items:
         counts[item["kind"]] = counts.get(item["kind"], 0) + 1
+    try:
+        report_output = args.out.resolve().relative_to(ROOT.resolve()).as_posix()
+    except ValueError:
+        report_output = args.out.name
     report = {
-        "output": str(args.out),
+        "output": report_output,
         "counts": counts,
         "total": len(items),
         "withTts": sum(1 for item in items if item.get("tts")),
