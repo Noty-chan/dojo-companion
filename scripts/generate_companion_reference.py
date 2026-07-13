@@ -5,9 +5,6 @@ import re
 from pathlib import Path
 from typing import Any
 
-import docx
-
-
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "Паника в Додзе (перевод, редактируемый).docx"
 SOURCE_JSON = ROOT / "data" / "companion_reference.source.json"
@@ -25,6 +22,10 @@ def slug(value: str) -> str:
 
 
 def paragraphs() -> list[dict[str, Any]]:
+    # python-docx нужен только в приватном рабочем проекте, где присутствует DOCX.
+    # Публичная/CI-сборка использует companion_reference.source.json без этой зависимости.
+    import docx
+
     doc = docx.Document(SOURCE)
     result = []
     for index, paragraph in enumerate(doc.paragraphs):
