@@ -1,0 +1,246 @@
+{
+  "notes": [
+    "Manual overlay for generated builder data.",
+    "Keep translation-derived text in _ru_ch4.txt/_ru_ch5.txt; keep stable ids, English names, TTS metadata, and curated tags here.",
+    "TTS card faces (faceUrl/backUrl/deckId/cardId) resolved from TS_AutoSave_3.json on 2026-06-24; used by the TTS Saved Object export."
+  ],
+  "items": {
+    "archetype-наставник": {
+      "id": "archetype-teacher",
+      "nameEn": "Teacher",
+      "tags": [
+        "поддержка",
+        "контроль",
+        "команда"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "b5fdfa",
+        "cardId": 30900,
+        "deckId": 309,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018902547693/0C374FF417DB9343F843163CE887C9C3F9075D5E/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "archetype-кавалерист": {
+      "id": "archetype-cavalry",
+      "nameEn": "Cavalry",
+      "tags": [
+        "мобильность",
+        "защита",
+        "позиционирование"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "e996c6",
+        "cardId": 32500,
+        "deckId": 325,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018910375854/303149E2C8AD5813F8FA75EED5426B67F8459AF1/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "archetype-цветок-зимы": {
+      "id": "archetype-winterblossom",
+      "nameEn": "Winterblossom",
+      "tags": [
+        "контроль",
+        "оборона",
+        "препятствия"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "016150",
+        "cardId": 32100,
+        "deckId": 321,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018902568364/F3FEEC5BE7F20415881F0EDF2E9CD374A8D93416/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "form-форма-стали": {
+      "id": "form-iron",
+      "nameEn": "Iron Form",
+      "tags": [
+        "защита",
+        "стойкость"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "2bd890",
+        "cardId": 18200,
+        "deckId": 182,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018897977920/5A8441359002A6A74AD4F9DD25BB2E68BCB1832A/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "form-форма-контроля": {
+      "id": "form-control",
+      "nameEn": "Control Form",
+      "tags": [
+        "контроль",
+        "позиционирование"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "1ac9fa",
+        "cardId": 18000,
+        "deckId": 180,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018897973178/43FD6C33B9630A85AB0AE160984B8899E3F965F3/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "form-форма-шквала": {
+      "id": "form-blaster",
+      "nameEn": "Blaster Form",
+      "tags": [
+        "дальность",
+        "урон",
+        "массовые цели"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "16dc58",
+        "cardId": 17900,
+        "deckId": 179,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018897971082/320A2B80C17159A982AFD831F1588EDA23809E01/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "form-форма-мощи": {
+      "id": "form-power",
+      "nameEn": "Power Form",
+      "tags": [
+        "урон",
+        "давление"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "c55899",
+        "cardId": 18400,
+        "deckId": 184,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018897979650/764E7C8827F456BE9FA1B8CD31673F172599425F/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "style-тренировочный-стиль": {
+      "id": "style-training",
+      "nameEn": "Training Style",
+      "family": "Наставник",
+      "tags": [
+        "поддержка",
+        "жетоны",
+        "союзники"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "bba857",
+        "cardId": 24700,
+        "deckId": 247,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898324967/C9F721B93EA7E319C0B408D5B44652AE9C86463E/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "style-стиль-стратега": {
+      "id": "style-mastermind",
+      "nameEn": "Mastermind Style",
+      "family": "Наставник",
+      "tags": [
+        "комбо",
+        "команда",
+        "гибкость"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "681944",
+        "cardId": 24400,
+        "deckId": 244,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898319042/A96CF23F518C24FDDFC3737EFEDA56B76A2EA807/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "style-стиль-старого-мастера": {
+      "id": "style-elder",
+      "nameEn": "Elder Style",
+      "family": "Наставник",
+      "tags": [
+        "урон",
+        "мастерство"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "eb1c24",
+        "cardId": 24200,
+        "deckId": 242,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898314630/0ECDB740AB002EA7A1DA40B4EAE6C7CF9864EC05/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "style-хрустальный-стиль": {
+      "id": "style-crystal",
+      "nameEn": "Crystal Style",
+      "family": "Цветок зимы",
+      "tags": [
+        "копии",
+        "слабость",
+        "урон"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "6ed190",
+        "cardId": 26800,
+        "deckId": 268,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898385205/2CAA80A78459BF10226C2CDB64E8B86FC877A362/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "style-зеркальный-стиль": {
+      "id": "style-mirror",
+      "nameEn": "Mirror Style",
+      "family": "Цветок зимы",
+      "tags": [
+        "стены",
+        "контроль",
+        "дальность"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "e82c0d",
+        "cardId": 27000,
+        "deckId": 270,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898388760/6056E5F49969BEF2A9D0352F4DA335AC4B9649C7/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "stat-грациозная-стать": {
+      "id": "stat-agile",
+      "nameEn": "Agile Build",
+      "tags": [
+        "скорость",
+        "мобильность"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "bf10c1",
+        "cardId": 27300,
+        "deckId": 273,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898495893/A316D36D4E64D45F7B753042CBCDC429FAE24611/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    },
+    "stat-подавляющая-стать": {
+      "id": "stat-overpowering",
+      "nameEn": "Overpowering Build",
+      "tags": [
+        "урон",
+        "давление"
+      ],
+      "tts": {
+        "sourceSave": "TS_AutoSave_3.json",
+        "guid": "1d141c",
+        "cardId": 27800,
+        "deckId": 278,
+        "faceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2506898018898510933/603210C8DC1519EB5F909D1159CEEA15FF111CB5/",
+        "backUrl": "https://steamusercontent-a.akamaihd.net/ugc/2205135519711693972/807BC3D938BC352D7C95FD988F39C3177E69AC5B/"
+      }
+    }
+  }
+}

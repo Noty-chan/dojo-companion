@@ -1,0 +1,25 @@
+# Зависимости и сборка
+node_modules/
+dist/
+*.tsbuildinfo
+.ms-playwright/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+
+# Временные файлы и логи
+tmp/
+tmp_*
+tmp-*.log
+*.log
+output/
+
+# Архивы-дубликаты и ручные бэкапы (источник правды — сами файлы в репозитории)
+backups/
+*.rar
+*.zip
+
+# Служебные каталоги агентов
+.codex-remote-attachments/

@@ -1,0 +1,14 @@
+{
+  "output": "D:\\Projects\\Active\\dojo-companion-main\\dojo-character-builder\\public\\data\\builder-data.json",
+  "counts": {
+    "archetype": 13,
+    "form": 12,
+    "style": 65,
+    "stat": 10,
+    "skill": 12
+  },
+  "total": 112,
+  "withTts": 14,
+  "referenceSections": 9,
+  "missingSummary": []
+}

@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+.ms-playwright/
+
+# build output
+dist/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# local scratch / QA artifacts
+tmp/
+tmp-*/
+tmp-*.png
+*.local
