@@ -44,7 +44,17 @@ jobs:
           npm run build --prefix dojo-character-builder
           npm run build --prefix dojo-table
       - name: Verify generated data is committed
-        run: git diff --exit-code -- data dojo-character-builder/data dojo-character-builder/public/data dojo-table/public/data
+        run: |
+          if ! git diff --quiet -- data dojo-character-builder/data dojo-character-builder/public/data dojo-table/public/data; then
+            {
+              echo "## Generated data differs"
+              echo '```diff'
+              git diff -- data dojo-character-builder/data dojo-character-builder/public/data dojo-table/public/data | head -c 50000
+              echo
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
       - name: Assemble Pages artifact
         if: github.event_name != 'pull_request'
         run: |
