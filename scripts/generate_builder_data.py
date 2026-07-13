@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import datetime as dt
 import hashlib
 import json
 import re
@@ -701,7 +700,10 @@ def source_hash(paths: list[Path]) -> str:
     for path in paths:
         if path and path.exists():
             digest.update(path.name.encode("utf-8"))
-            digest.update(path.read_bytes())
+            # Git может выдавать CRLF на Windows и LF в CI. Хэш описывает содержимое,
+            # поэтому переводы строк не должны делать сборку невоспроизводимой.
+            normalized = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+            digest.update(normalized.encode("utf-8"))
     return digest.hexdigest()
 
 
@@ -760,7 +762,6 @@ def main() -> int:
 
     payload = {
         "schemaVersion": 1,
-        "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "sourceHash": source_hash([args.forms_patched, args.reference, args.ch4, args.ch5, args.full, args.overrides, args.tts_manifest]),
         "sourceNotes": [
             "Generated from data/forms_patched.json, data/companion_reference.json, _ru_ch5.txt, and _translation_full.txt.",

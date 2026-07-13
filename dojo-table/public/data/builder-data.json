@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T08:45:15.157613+00:00",
-  "sourceHash": "406a50d42f325f8cc5af09bb4ab2220553dcab5d78b467a3af08a0f8d30aa540",
+  "sourceHash": "165052ef6edc7048439482b02ff35c051032dee4fc2ef55c87b4345dc80de0bd",
   "sourceNotes": [
     "Generated from data/forms_patched.json, data/companion_reference.json, _ru_ch5.txt, and _translation_full.txt.",
     "Manual stable ids, English names, and TTS metadata are applied from dojo-character-builder/data/builder-overrides.json."
